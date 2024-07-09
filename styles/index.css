@@ -4,6 +4,8 @@ html, body {
     padding: 0;
     font-family: 'Rubik', sans-serif;
     background-color: #EEF0F4;
+    color: #432000;
+    user-select: none;
 }
 
 .wrapper {
@@ -41,4 +43,32 @@ button {
     font-size: 20px;
     text-align: center;
     font-family: 'Rubik', sans-serif;
+    margin: 10px 0;
+}
+button:hover {
+    background-color: #432000;
+    cursor: pointer;
+}
+
+#list-display {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#list-display li {
+    font-size: 20px;
+    background-color: #FFFDF8;
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+}
+
+#list-display li:hover {
+    background-color: #FFECC7;
+    cursor: pointer;
 }
