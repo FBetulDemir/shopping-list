@@ -36,7 +36,7 @@ input {
 
 button {
     color: #FDFDFD;
-    background-color: #AC485A;
+    background-color: #08F;
     border: 0;
     padding: 15px;
     border-radius: 8px;
@@ -69,6 +69,6 @@ button:hover {
 }
 
 #list-display li:hover {
-    background-color: #FFECC7;
+    background-color: #DDD;
     cursor: pointer;
 }
